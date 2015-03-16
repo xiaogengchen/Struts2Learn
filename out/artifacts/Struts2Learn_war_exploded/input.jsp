@@ -13,8 +13,10 @@
 </head>
 <body>
     <h3>使用逗号将点的两个坐标分割</h3>
-    <s:form name="pointConverter">
+    <s:form action="pointConverter">
         <s:textfield name="point" label="point"></s:textfield>
+        <s:textfield name="point" label="point2"></s:textfield>
+        <s:textfield name="point" label="point3"></s:textfield>
         <s:textfield name="age" label="age"></s:textfield>
         <s:textfield name="username" label="username"></s:textfield>
         <s:textfield name="date" label="birthday"></s:textfield>
