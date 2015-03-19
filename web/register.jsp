@@ -12,7 +12,13 @@
     <title>register.jsp</title>
 </head>
 <body>
-    <s:fielderror></s:fielderror>
+    <table align="center" width="35%">
+        <tr>
+            <td style="color:red">
+                <s:fielderror></s:fielderror>
+            </td>
+        </tr>
+    </table>
     <form action="register" method="post">
         <table align="center" width="35%" border="1">
             <tr>
