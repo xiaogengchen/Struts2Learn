@@ -1,0 +1,8 @@
+ssh-keygen -t rsa -C "xiao_gengchen@163.com"
+
+
+
+git remote add origin https://github.com/xiaogengchen/wx.git
+
+
+git push -u origin master

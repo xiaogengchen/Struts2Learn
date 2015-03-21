@@ -77,7 +77,6 @@ public class RegisterAction extends ActionSupport {
     @Override
     public void validate() {
         System.out.println("validate~~~~~~") ;
-        this.addFieldError("username","aaaaaaaaaaaaaaa") ;
 //        if(null == username || username.length() < 6 || username.length() > 10){
 //            this.addActionError("username invalid");
 //        }

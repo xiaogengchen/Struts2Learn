@@ -32,6 +32,7 @@ public class MyInterceptor implements Interceptor{
     public String intercept(ActionInvocation actionInvocation) throws Exception {
         System.out.println("intercept ") ;
         String result = actionInvocation.invoke() ;
+        System.out.println("result :" + result) ;
         System.out.println("finish") ;
         return result;
     }
